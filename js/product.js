@@ -101,4 +101,5 @@ const addToCart = function (data) {
       localStorage.setItem("cart", JSON.stringify(cartProducts));
     }
   }
+  cartValue.innerHTML = localStorage.getItem("cartCount");
 };
